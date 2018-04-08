@@ -18,7 +18,7 @@ cd win32\VS2015
 msbuild opus.sln /property:Configuration=Debug /property:Platform="Win32"  
 msbuild opus.sln /property:Configuration=Release /property:Platform="Win32"
 
-SET PATH=%cd%\ThirdParty\NASM;%cd%\ThirdParty\yasm;%cd%\ThirdParty\msys64\usr\bin;%PATH%  
+SET PATH=%cd%\ThirdParty\Perl\bin;%cd%\ThirdParty\NASM;%cd%\ThirdParty\yasm;%cd%\ThirdParty\msys64\usr\bin;%PATH%  
 cd FFmpeg  
 git checkout release/3.4  
 set CHERE_INVOKING=enabled_from_arguments  
