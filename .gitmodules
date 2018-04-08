@@ -1,0 +1,6 @@
+[submodule "opus"]
+	path = opus
+	url = https://github.com/telegramdesktop/opus.git
+[submodule "FFmpeg"]
+	path = FFmpeg
+	url = https://github.com/FFmpeg/FFmpeg.git
