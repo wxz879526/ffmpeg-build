@@ -1,0 +1,13 @@
+*.ilk
+*.pdb
+*.suo
+Browse.VC.db
+*.opendb
+*.ipch
+*.log
+*.obj
+*.pch
+*.tlog
+*.lastbuildstate
+*.idb
+Tutorial.exe
