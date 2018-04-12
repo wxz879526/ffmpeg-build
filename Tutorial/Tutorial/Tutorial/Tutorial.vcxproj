@@ -98,7 +98,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\..\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>avformat.lib;avcodec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>avformat.lib;avcodec.lib;avfilter.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
